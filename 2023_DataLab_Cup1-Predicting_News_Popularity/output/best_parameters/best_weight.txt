@@ -1,0 +1,3 @@
+The features: ['author_name', 'topic', 'year', 'month', 'date', 'day', 'is_weekend', 'hour', 'num_video', 'len_content', 'sentiment_neg', 'sentiment_neu', 'sentiment_pos', 'sentiment_compound']
+The best parameter: [1, 2, 1]
+ngram_range_: (1, 1)--------------------------------------------------------

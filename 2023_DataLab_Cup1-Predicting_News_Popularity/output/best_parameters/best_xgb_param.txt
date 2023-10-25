@@ -1,3 +1,5 @@
-The features: ['author_name', 'topic', 'year', 'month', 'date', 'day', 'is_weekend', 'hour', 'num_video', 'len_content', 'sentiment_neg', 'sentiment_neu', 'sentiment_pos', 'sentiment_compound']
-The best parameter: {'gamma': 1.4, 'lambda': 2.5, 'learning_rate': 0.136, 'max_depth': 6, 'n_estimators': 96}
-ngram_range_: (1, 1)The best_valid_score: (0.5922195120303154, 0.008039733623426068)--------------------------------------------------------
+The features: ['author_name', 'topic', 'year', 'month', 'date', 'day', 'is_weekend', 'hour', 'num_video', 'len_content']
+The best parameter: {'gamma': 1, 'lambda': 2.3, 'learning_rate': 0.139, 'max_depth': 7, 'n_estimators': 97}
+ngram_range : (1, 1)
+The best validation: 0.5919169182731223
+--------------------------------------------------------

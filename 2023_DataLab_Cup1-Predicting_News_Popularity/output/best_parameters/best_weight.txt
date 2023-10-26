@@ -1,6 +1,42 @@
-The features: ['author_name', 'topic', 'year', 'month', 'date', 'day', 'is_weekend', 'hour', 'num_video', 'len_content']
-The best parameter: [1, 5]
+The features: [('xgboost', Pipeline(steps=[('vect',
+                 ColumnTransformer(n_jobs=-1, remainder='passthrough',
+                                   transformers=[('author name process',
+                                                  TfidfVectorizer(lowercase=False,
+                                                                  token_pattern=None,
+                                                                  tokenizer=<function word_stemming at 0x7f548d461620>),
+                                                  [0]),
+                                                 ('topic name process',
+                                                  TfidfVectorizer(lowercase=False,
+                                                                  token_pattern=None,
+                                                                  tokenizer=<function word_stemming at 0x7f548d461620>),
+                                                  [1])])),
+                ('...
+                               feature_types=None, gamma=1.4, gpu_id=None,
+                               grow_policy=None, importance_type=None,
+                               interaction_constraints=None, lambda=2.5,
+                               learning_rate=0.136, max_bin=None,
+                               max_cat_threshold=None, max_cat_to_onehot=None,
+                               max_delta_step=None, max_depth=6,
+                               max_leaves=None, min_child_weight=None,
+                               missing=nan, monotone_constraints=None,
+                               n_estimators=96, n_jobs=-1,
+                               num_parallel_tree=None, predictor=None, ...))])), ('lgbm', Pipeline(steps=[('vect',
+                 ColumnTransformer(n_jobs=-1, remainder='passthrough',
+                                   transformers=[('author name process',
+                                                  TfidfVectorizer(lowercase=False,
+                                                                  token_pattern=None,
+                                                                  tokenizer=<function word_stemming at 0x7f548d461620>),
+                                                  [0]),
+                                                 ('topic name process',
+                                                  TfidfVectorizer(lowercase=False,
+                                                                  token_pattern=None,
+                                                                  tokenizer=<function word_stemming at 0x7f548d461620>),
+                                                  [1])])),
+                ('clf',
+                 LGBMClassifier(learning_rate=0.0139, n_estimators=242,
+                                objective='poisson', random_state=0))]))]
+The best parameter: [1, 9]
 ngram_range : (1, 1)
-The best estimator_list:  xgboost lgbm
-The best validation: 0.5984766905979378
+The best estimator_list:  a t y m d d i h n l
+The best validation: 0.5981959720529504
 --------------------------------------------------------

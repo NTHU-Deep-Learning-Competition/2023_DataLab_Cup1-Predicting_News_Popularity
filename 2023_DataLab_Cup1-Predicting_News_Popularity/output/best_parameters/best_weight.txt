@@ -35,8 +35,8 @@ The features: [('xgboost', Pipeline(steps=[('vect',
                 ('clf',
                  LGBMClassifier(learning_rate=0.0139, n_estimators=242,
                                 objective='poisson', random_state=0))]))]
-The best parameter: [1, 9]
-ngram_range : (1, 1)
+The best parameter: None
+ngram_range : [(1, 2), (1, 1)]
 The best estimator_list:  a t y m d d i h n l
-The best validation: 0.5981959720529504
+The best validation: 0
 --------------------------------------------------------

@@ -3,3 +3,4 @@ test.csv
 test_pred.csv
 example.html
 catboost_info/
+best_models/

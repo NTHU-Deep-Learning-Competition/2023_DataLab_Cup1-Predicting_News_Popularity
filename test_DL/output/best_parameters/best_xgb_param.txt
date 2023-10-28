@@ -1,0 +1,5 @@
+The features: ['author_name', 'topic', 'year', 'month', 'date', 'day', 'is_weekend', 'hour', 'num_video', 'len_content', 'sentiment_neg', 'sentiment_neu', 'sentiment_pos', 'sentiment_compound']
+The best parameter: {'gamma': 1.2, 'lambda': 2.5, 'learning_rate': 0.141, 'max_depth': 7, 'n_estimators': 97}
+ngram_range : (1, 2)
+The best validation: 0.5930221618683709
+--------------------------------------------------------

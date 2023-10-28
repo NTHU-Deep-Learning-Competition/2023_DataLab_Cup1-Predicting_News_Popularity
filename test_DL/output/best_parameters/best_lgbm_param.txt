@@ -1,0 +1,5 @@
+The features: ['author_name', 'topic', 'year', 'month', 'date', 'day', 'is_weekend', 'hour', 'num_video', 'len_content']
+The best parameter: {'learning_rate': 0.0152, 'n_estimators': 252, 'objective': 'poisson'}
+ngram_range : (1, 2)
+The best validation: 0.5990374592695841
+--------------------------------------------------------
